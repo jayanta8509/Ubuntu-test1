@@ -1,0 +1,20 @@
+****** How to Install Virtual enverment in Ubuntu Sysytem *********
+
+step -1 :- open Terminal and Install pip3 install pipenv
+step -2 :- pipenv shell
+step -3 :- virtualenv env 
+step -4 :- After that You Activate virtualenv " how to activate " 1> "ls -l env/bin/activate"
+2> "ls -ld env"
+
+3> Ensure that you have read and execute permissions on the activate script and read, write, and execute permissions on the env directory. If the permissions are not set correctly, you can change them using the chmod command. For example:
+1> chmod +x env/bin/activate
+2> chmod -R 755 env
+
+3> source env/bin/activate 
+
+
+********** How to run Django Project in Ubuntu *************************
+ 
+ python3 manage.py runserver
+ # and Evey laibary you shuld install using python3 and install pip3 
+
